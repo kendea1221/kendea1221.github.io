@@ -1,0 +1,140 @@
+body{
+  background-color: white;
+}
+
+
+
+
+.main-menu{
+  background-color:  #ededa6;
+  text-align: center;
+  border-radius: 12px 12px 12px 12px;
+  animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+animation-delay: 0.5s;
+}
+
+
+
+.home-pages{
+  background-color: #ff9999;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 12px 12px 12px 12px;
+  margin: 20px;
+  animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+animation-delay: 1s;
+}
+.mail{
+  background-color: #99ffcc;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 12px 12px 12px 12px;
+  margin: 20px;
+  animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+animation-delay: 1.5s;
+}
+
+.github{
+  background-color: #b3ccff;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 12px 12px 12px 12px;
+  margin: 20px;
+  animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+animation-delay: 2s;
+}
+
+.twitter{
+  background-color: #ffd9b3;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 12px 12px 12px 12px;
+  margin: 20px;
+  animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+animation-delay: 2.5s;
+}
+
+.facebook{
+  background-color: #cceeff;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 12px 12px 12px 12px;
+  margin: 20px;
+  animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+animation-delay: 3s;
+}
+
+.instagram{
+  background-color: #80ffd5;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 12px 12px 12px 12px;
+  margin: 20px;
+  animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+animation-delay: 3.5s;
+}
+
+.applepodcast{
+  background-color: #99ccff;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 12px 12px 12px 12px;
+  margin: 20px;
+  animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+animation-delay: 4s;
+}
+
+.spotify{
+  background-color: #fffaf0;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 12px 12px 12px 12px;
+  margin: 20px;
+  animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+animation-delay: 4.5s;
+}
+
+.img{
+  float: right;
+}
+.copy{
+  text-align: right;
+}
+@keyframes fadeUpAnime{
+  from {
+    opacity: 0;
+  transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateY(0);
+  }
+}
