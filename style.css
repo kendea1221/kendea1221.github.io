@@ -121,6 +121,22 @@ opacity:0;
 animation-delay: 4.5s;
 }
 
+.ningen{
+  background-color: #ffd9b3;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 12px 12px 12px 12px;
+  margin: 20px;
+  animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+animation-delay: 2.5s;
+}
+
+
+
+
 .img{
   float: right;
 }
