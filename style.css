@@ -91,3 +91,19 @@ body {
 hr{
     margin-top: 20px;
 }
+
+.t-btn{
+    margin-top: 15px;
+    border: solid rgb(242, 130, 255) 3px;
+    border-radius: 10px;
+}
+
+.t-title{
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+.t-stitle{
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
