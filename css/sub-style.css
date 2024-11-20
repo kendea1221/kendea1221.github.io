@@ -1,0 +1,67 @@
+/* my colors */
+body, html{
+    background-color: #EDEFF1 !important;
+    color: #303F43;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.green{
+    color: #26A79A;
+}
+
+.red{
+    color: #EC4079;
+}
+
+.blue{
+    color: #3F51B5;
+}
+
+.yellow{
+    color: #FFCA29;
+}
+
+.bg-green{
+    background-color: #26A79A;
+}
+
+.bg-red{
+    background-color: #EC4079;
+}
+
+.bg-blue{
+    background-color: #3F51B5;
+}
+
+.bg-yellow{
+    background-color: #FFCA29;
+}
+
+/* page-css */
+.title{
+    text-align: center;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item li{
+    list-style: none;
+}
+
+.nav-item ul{
+    padding-left: 0;
+}
+
+.r{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    text-align: center;
+}
